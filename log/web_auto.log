@@ -1,0 +1,6 @@
+2022-03-21 15:31:37 method:%1----打开chrome浏览器
+2022-03-21 15:31:38 method:%1----浏览器窗口最大化
+2022-03-21 15:31:56 method:%1----点击元素【By.xpath: //*[@id="header"]/section/div/div/div[3]/a[2]】
+2022-03-21 15:31:57 method:%1----给元素【By.xpath: //*[@id="PolarisTextField1"]】输入数据【anita.zhou@anker.io】
+2022-03-21 15:31:57 method:%1----给元素【By.xpath: //*[@id="PolarisTextField2"]】输入数据【HH19921210.】
+2022-03-21 15:31:58 method:%1----点击元素【By.xpath: //*[@id="gatsby-focus-wrapper"]/div/div/div[1]/div/div/div/form[1]/div[2]/div[2]/button】
