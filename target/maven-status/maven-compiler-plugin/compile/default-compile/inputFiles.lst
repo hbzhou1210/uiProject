@@ -1,0 +1,9 @@
+/Users/anker/IdeaProjects/uiProject/src/main/java/businessFlow/LoginFlow.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/pageObject/BasePage.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/testDatas/Constant.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/pageObject/RegisterPage.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/pageObject/LoginPage.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/testDatas/LoginDatas.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/testCase/LoginCase.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/utils/WebDriverUtils.java
+/Users/anker/IdeaProjects/uiProject/src/main/java/report/ZTestReport.java

@@ -14,13 +14,23 @@ public class BasePage {
     //实例化日志对象
     private Logger logger =Logger.getLogger(BasePage.class);
     /**
-     * 等待元素可见
+     * waitElementVisible 判断元素是否可见（非隐藏，并且元素的宽和高都不等以0）
      * @param by
      * @return
      */
     public WebElement waitElementVisible(By by){
-        WebDriverWait webDriverWait = new WebDriverWait(WebDriverUtils.driver,5);
+        WebDriverWait webDriverWait = new WebDriverWait(WebDriverUtils.driver,10);
         WebElement webElement = webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(by));
+        return webElement;
+    }
+    /**
+     * presenceOfElementLocated 判断元素是否可见（非隐藏，并且元素的宽和高都不等以0）
+     * @param by
+     * @return
+     */
+    public WebElement presenceOfElementLocated(By by){
+        WebDriverWait webDriverWait = new WebDriverWait(WebDriverUtils.driver,10);
+        WebElement webElement = webDriverWait.until(ExpectedConditions.presenceOfElementLocated(by));
         return webElement;
     }
 
@@ -30,7 +40,7 @@ public class BasePage {
      * @return
      */
     public WebElement waitElementClickable(By by){
-        WebDriverWait webDriverWait = new WebDriverWait(WebDriverUtils.driver,5);
+        WebDriverWait webDriverWait = new WebDriverWait(WebDriverUtils.driver,10);
         WebElement webElement = webDriverWait.until(ExpectedConditions.elementToBeClickable(by));
         return webElement;
     }
@@ -104,14 +114,19 @@ public class BasePage {
     }
 
     /**
-     * 获取元素文本
+     * 获取元素文本，元素加载到bom中
      * @param by
      * @return
      */
     public String getElementText(By by){
         String text = waitElementVisible(by).getText();
         logger.info("获取元素【"+by+"】文本值为【"+text+"】");
-        return waitElementVisible(by).getText();
+        return text;
+    }
+    public String getElementText1(By by){
+        String text = presenceOfElementLocated(by).getText();
+        logger.info("获取元素【"+by+"】文本值为【"+text+"】");
+        return text;
     }
 
     /**

@@ -1,6 +1,44 @@
-2022-03-21 15:31:37 method:%1----打开chrome浏览器
-2022-03-21 15:31:38 method:%1----浏览器窗口最大化
-2022-03-21 15:31:56 method:%1----点击元素【By.xpath: //*[@id="header"]/section/div/div/div[3]/a[2]】
-2022-03-21 15:31:57 method:%1----给元素【By.xpath: //*[@id="PolarisTextField1"]】输入数据【anita.zhou@anker.io】
-2022-03-21 15:31:57 method:%1----给元素【By.xpath: //*[@id="PolarisTextField2"]】输入数据【HH19921210.】
-2022-03-21 15:31:58 method:%1----点击元素【By.xpath: //*[@id="gatsby-focus-wrapper"]/div/div/div[1]/div/div/div/form[1]/div[2]/div[2]/button】
+2022-03-23 12:20:45 method:%1----chrome浏览器无头模式
+2022-03-23 12:20:59 method:%1----点击元素【By.xpath: //*[@id="header"]/section/div[2]/div/div[3]/a[2]】
+2022-03-23 12:21:01 method:%1----给元素【By.xpath: //*[@id="PolarisTextField1"]】输入数据【anita.zhou@anker.io】
+2022-03-23 12:21:01 method:%1----给元素【By.xpath: //*[@id="PolarisTextField2"]】输入数据【HH19921210.】
+2022-03-23 12:21:01 method:%1----点击元素【By.xpath: //*[@id="gatsby-focus-wrapper"]/div/div/div[1]/div/div/div/form[1]/div[2]/div[2]/button】
+2022-03-23 12:21:03 method:%1----chrome浏览器无头模式
+2022-03-23 12:21:14 method:%1----给元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[1]/div/input】输入数据【5Zb8fS@anker.io】
+2022-03-23 12:21:15 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[2]/label/span[1]/input】
+2022-03-23 12:21:15 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[2]/div/button】
+2022-03-23 12:21:18 method:%1----获取元素【By.xpath: //*[@id="newsletter_form"]/div[3]/div[2]/p】文本值为【Welcome to Nebula! The 10% off code will be sent to your email!】
+2022-03-23 12:21:18 method:%1----获取元素【By.xpath: //*[@id="newsletter_form"]/div[3]/div[2]/p】文本值为【Welcome to Nebula! The 10% off code will be sent to your email!】
+2022-03-23 12:21:18 method:%1----实际结果：Welcome to Nebula! The 10% off code will be sent to your email!，预期结果：Welcome to Nebula! The 10% off code will be sent to your email!
+2022-03-23 12:21:19 method:%1----chrome浏览器无头模式
+2022-03-23 12:21:31 method:%1----点击元素【By.xpath: //*[@id="header"]/section/div[2]/div/div[2]/nav/div[2]/a】
+2022-03-23 12:21:33 method:%1----点击元素【By.xpath: //*[@id="shopify-section-Go_Anywhere_Series"]/div[2]/div/div[2]/div[1]/a/img】
+2022-03-23 12:21:36 method:%1----点击元素【By.xpath: //*[@id="product_form_6162425708719"]/div[3]/div[3]/div】
+2022-03-23 12:21:42 method:%1----给元素【By.xpath: //*[@id="checkout_email"]】输入数据【2EP0TM@anker.io】
+2022-03-23 12:21:43 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_first_name"]】输入数据【k37mhW】
+2022-03-23 12:21:43 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_last_name"]】输入数据【ES6bb9】
+2022-03-23 12:21:44 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_address1"]】输入数据【mSP006】
+2022-03-23 12:21:44 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_address2"]】输入数据【SvE6pa】
+2022-03-23 12:21:44 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_city"]】输入数据【d3bwph】
+2022-03-23 12:21:44 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_zip"]】输入数据【21201】
+2022-03-23 12:21:44 method:%1----给元素【By.xpath: //*[@id="checkout_shipping_address_phone"]】输入数据【111111】
+2022-03-23 12:21:50 method:%1----点击元素【By.xpath: //*[@id="continue_button"]】
+2022-03-23 12:21:50 method:%1----获取元素【By.xpath: //*[@id="continue_button"]】文本值为【Continue to payment】
+2022-03-23 12:21:50 method:%1----获取元素【By.xpath: //*[@id="continue_button"]】文本值为【Continue to payment】
+2022-03-23 12:21:50 method:%1----实际结果：Continue to payment，预期结果：Continue to payment
+2022-03-23 14:01:17 method:%1----chrome浏览器无头模式
+2022-03-23 14:01:32 method:%1----给元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[1]/div/input】输入数据【aIGPYJ@anker.io】
+2022-03-23 14:01:33 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[2]/label/span[1]/input】
+2022-03-23 14:01:33 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[2]/div/button】
+2022-03-23 14:01:37 method:%1----获取元素【By.xpath: //*[@id="newsletter_form"]/div[3]/div[2]/p】文本值为【Welcome to Nebula! The 10% off code will be sent to your email!】
+2022-03-23 14:04:23 method:%1----chrome浏览器无头模式
+2022-03-23 14:04:35 method:%1----给元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[1]/div/input】输入数据【HZSA6Q@anker.io】
+2022-03-23 14:04:35 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[2]/label/span[1]/input】
+2022-03-23 14:04:36 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[2]/div/button】
+2022-03-23 14:04:38 method:%1----获取元素【By.xpath: //*[@id="newsletter_form"]/div[3]/div[2]/p】文本值为【Welcome to Nebula! The 10% off code will be sent to your email!】
+2022-03-23 14:04:38 method:%1----获取元素【By.xpath: //*[@id="newsletter_form"]/div[3]/div[2]/p】文本值为【Welcome to Nebula! The 10% off code will be sent to your email!】
+2022-03-23 14:10:22 method:%1----chrome浏览器无头模式
+2022-03-23 14:10:35 method:%1----给元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[1]/div/input】输入数据【Qz42BS@anker.io】
+2022-03-23 14:10:36 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[2]/label/span[1]/input】
+2022-03-23 14:10:36 method:%1----点击元素【By.xpath: //*[@id="newsletter_form"]/div[1]/div[2]/div/button】
+2022-03-23 14:10:39 method:%1----获取元素【By.xpath: //*[@id="newsletter_form"]/div[3]/div[2]/p】文本值为【Welcome to Nebula! The 10% off code will be sent to your email!】

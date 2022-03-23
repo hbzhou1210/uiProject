@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/anker/IdeaProjects/uiProject">
+    <parameter name="browserName" value="chrome_headless"></parameter>
+    <classes>
+<!--        <class name="testCase.Nebula.LoginCase"/>-->
+        <class name="testCase.Nebula.SubscribeCase" />
+<!--        <class name="testCase.Nebula.ShopCase"/>-->
+    </classes>
+</test>
+    <listeners>
+        <listener class-name="report.TestFailListener"></listener>
+    </listeners>
+</suite>

@@ -1,5 +1,5 @@
 package businessFlow;
-import pageObject.LoginPage;
+import pageObject.Nebula.LoginPage;
 
 public class LoginFlow{
     private String loginName;
