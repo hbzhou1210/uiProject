@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Anker"><test verbose="2" preserve-order="true" name="AnkerTestCase">
+<!--    <parameter name="browserName" value="chrome" />-->
+    <parameter name="browserName" value="chrome_headless" />
+    <classes>
+        <class name="testCase.Anker.LoginCase"/>
+        <class name="testCase.Anker.SubscribeCase" />
+        <class name="testCase.Anker.ShopCase"/>
+        <class name="testCase.Anker.AddCartCase"/>
+    </classes>
+</test>
+</suite>
